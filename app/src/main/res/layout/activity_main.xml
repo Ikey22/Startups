@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hello World!"
+        android:padding="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/writeText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/cardview_light_background"
+        android:hint="@string/enter_your_text_here"
+        android:autofillHints="@string/enter_your_text_here"
+        android:ems="10"
+        android:inputType="textLongMessage|textMultiLine|textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:labelFor="@id/writeText"
+        style="@style/Widget.AppCompat.TextView"
+        tools:ignore="LabelFor" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <TextView
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:padding="10dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

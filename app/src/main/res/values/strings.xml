@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Startups</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="enter_your_text">Enter your text</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_text_here">Enter your text here</string>
+    <string name="welcome_to_my_new_activity">Welcome to my new activity</string>
+
+</resources>
